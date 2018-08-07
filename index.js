@@ -10,9 +10,15 @@ function setCart(c) {
 }
 
 function addToCart(item) {
+for (let i = 0; i < 100; i++) {
+    if (i === 1) {
+      cart.push(itemName, itemPrice)
+    } else {
+      cart.push(itemName, itemPrice++)
+    }
+  }
 
-
-return Math.random() >= 100
+  return cart
 }
 
 function viewCart() {
