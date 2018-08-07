@@ -14,6 +14,8 @@ function addToCart(item){
   cart.push(itemAdded);
  return `${item} has been added to your cart.`;
 }
+
+function total(){
 var string = "In your cart, you have ";
   var itemstolist = [];
   if (cart[0]===undefined) {
