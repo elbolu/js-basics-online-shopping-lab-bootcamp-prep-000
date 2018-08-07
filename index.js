@@ -12,7 +12,7 @@ function setCart(c) {
 function addToCart(item) {
 
 
-return Math.random() >= 0.5
+return Math.random() >= 100
 }
 
 function viewCart() {
