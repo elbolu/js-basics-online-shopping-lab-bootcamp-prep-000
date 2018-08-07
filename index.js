@@ -10,8 +10,8 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-  var item = generateCartItem(item)
-  getCart().push(item)
+  var newItem = generateCartItem(item)
+  getCart().push(newItem)
   return `${item.itemName} has been added to your cart.`
 }
 
