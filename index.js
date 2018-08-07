@@ -22,6 +22,15 @@ function viewCart() {
     return `In your cart, you have ${cart[0].itemName} at $${cart[0].itemPrice}.`;
   } 
   else {
+    
+function total(cart) {
+  var sum = 0;
+  for (var i = 0; i < cart.length; i++) {
+    sum += cart[i].itemPrice;
+  }
+  return sum;
+}	
+     
     var output = `In your cart, you have `;
     for (var i = 0; i < cart.length; i++){
     if (i < cart.length - 1 ){
