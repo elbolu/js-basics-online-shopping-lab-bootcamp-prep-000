@@ -11,7 +11,12 @@ function setCart(c) {
 
 function addToCart(item) {
   getCart().push(item)
-  
+  function generateCartItem(itemName) {
+  return {
+    itemName:itemName,
+    itemPrice:getRandomInt(1, 100)
+  }
+}
   return `${item.itemName} has been added to your cart.`
 }
 
