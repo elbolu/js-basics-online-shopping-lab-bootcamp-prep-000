@@ -10,15 +10,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-for (let i = 0; i < 100; i++) {
-    if (i === 1) {
-      cart.push(ietm)
-    } else {
-      cart.push(item++)
-    }
-  }
 
-  return cart
 }
 
 function viewCart() {
