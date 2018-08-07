@@ -15,7 +15,7 @@ function addToCart(item){
  return `${item} has been added to your cart.`;
 }
 
-function total(){
+function viewCart() {
 var string = "In your cart, you have ";
   var itemstolist = [];
   if (cart[0]===undefined) {
@@ -36,5 +36,7 @@ var string = "In your cart, you have ";
       }
       return `${string}${itemstolist}, ${cart[cart.length-2].itemName} at $${cart[cart.length-2].itemPrice}, and ${cart[cart.length-1].itemName} at $${cart[cart.length-1].itemPrice}.`;
     }
+}
+
     
     
